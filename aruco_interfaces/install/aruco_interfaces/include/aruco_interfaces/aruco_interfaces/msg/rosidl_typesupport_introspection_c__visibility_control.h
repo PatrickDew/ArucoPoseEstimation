@@ -1,0 +1,1 @@
+/home/patrickdew/aruco_d435/ros2-aruco-pose-estimation/aruco_interfaces/build/aruco_interfaces/rosidl_typesupport_introspection_c/aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h

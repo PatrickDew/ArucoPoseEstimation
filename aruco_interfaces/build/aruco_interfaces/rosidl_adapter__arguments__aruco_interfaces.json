@@ -1,0 +1,6 @@
+{
+  "package_name": "aruco_interfaces",
+  "non_idl_tuples": [
+    "/home/patrickdew/aruco_d435/ros2-aruco-pose-estimation/aruco_interfaces:msg/ArucoMarkers.msg"
+  ]
+}

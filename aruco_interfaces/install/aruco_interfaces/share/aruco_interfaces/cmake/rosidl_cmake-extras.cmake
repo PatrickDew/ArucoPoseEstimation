@@ -1,0 +1,1 @@
+/home/patrickdew/aruco_d435/ros2-aruco-pose-estimation/aruco_interfaces/build/aruco_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake

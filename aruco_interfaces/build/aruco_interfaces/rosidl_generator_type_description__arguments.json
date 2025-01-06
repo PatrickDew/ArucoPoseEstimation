@@ -1,0 +1,12 @@
+{
+  "package_name": "aruco_interfaces",
+  "output_dir": "/home/patrickdew/aruco_d435/ros2-aruco-pose-estimation/aruco_interfaces/build/aruco_interfaces/rosidl_generator_type_description/aruco_interfaces",
+  "idl_tuples": [
+    "/home/patrickdew/aruco_d435/ros2-aruco-pose-estimation/aruco_interfaces/build/aruco_interfaces/rosidl_adapter/aruco_interfaces:msg/ArucoMarkers.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces"
+  ]
+}

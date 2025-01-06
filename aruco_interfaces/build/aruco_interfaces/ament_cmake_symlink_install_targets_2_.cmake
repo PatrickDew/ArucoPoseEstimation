@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/patrickdew/aruco_d435/ros2-aruco-pose-estimation/aruco_interfaces/build/aruco_interfaces/rosidl_generator_py/aruco_interfaces/aruco_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" "TARGETS" "aruco_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.10/site-packages/aruco_interfaces")
