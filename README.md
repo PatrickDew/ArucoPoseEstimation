@@ -54,7 +54,7 @@ sudo apt install ros-iron-tf2-ros
 ```
 #### Clone the ArUco pose estimation repository:
 ```bash
-git clone https://github.com/AIRLab-POLIMI/ros2-aruco-pose-estimation.git
+git clone https://github.com/PatrickDew/ArucoPoseEstimation.git
 cd ros2-aruco-pose-estimation
 ```
 #### Build the package:
