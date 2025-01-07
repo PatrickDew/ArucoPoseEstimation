@@ -54,8 +54,8 @@ sudo apt install ros-iron-tf2-ros
 ```
 #### Clone the ArUco pose estimation repository:
 ```bash
-git clone https://github.com/PatrickDew/ArucoPoseEstimation.git
-cd ros2-aruco-pose-estimation
+git clone ...
+cd ...
 ```
 #### Build the package:
 ```bash
@@ -63,7 +63,7 @@ colcon build --symlink-install
 ```
 #### Source the setup file:
 ```bash
-source ~/aruco_d435/ros2-aruco-pose-estimation/install/setup.bash
+source ~/.../install/setup.bash
 ```
 ---
 
@@ -94,13 +94,8 @@ ros2 launch aruco_pose_estimation aruco_pose_estimation.launch.py marker_size:=0
     ros2 topic info /aruco/markers
     ros2 topic info /aruco/poses
 ```
-    These topics should show the relevant data being published.
+These topics should show the relevant data being published.
 - Ensure that the parameters used in the launch file are correct. Double-check the dictionary type (e.g., `DICT_5X5_250`) and marker size.
-
-**Solution Summary**: 
-- Confirm that the camera and ArUco topics are correctly mapped.
-- Verify that the `/aruco/image`, `/aruco/markers`, and `/aruco/poses` topics are receiving data.
-
 ---
 
 ### 2. Invalid Message Type (aruco_interfaces/msg/ArucoMarkers)
@@ -115,12 +110,9 @@ ros2 launch aruco_pose_estimation aruco_pose_estimation.launch.py marker_size:=0
 ```
 - After building, source the new setup path to ensure the correct message types are available in your workspace:
 ```bash
-    source ~/ros2_ws/aruco_interfaces/install/setup.bash
+    source ~/.../aruco_interfaces/install/setup.bash
 ```
 - Finally, re-launch the ArUco Pose Estimation node:
 ```bash
     ros2 launch aruco_pose_estimation aruco_pose_estimation.launch.py marker_size:=0.1 aruco_dictionary_id:=DICT_5X5_250 camera_frame:=camera_link
 ```
-**Solution Summary**:
-- Rebuild the `aruco_interfaces` package with `colcon build --packages-select aruco_interfaces`.
-- Source the new path to ensure the latest message types are available.
